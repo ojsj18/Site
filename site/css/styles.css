@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+
+/* posso sobreesceever a classe padrao do bootstrap e se quiser forçar usar !important*/
+
+.presentation-text {
+    display: none;
+}
+
+.img-fluid {
+    width: 80%;
+    height: auto;
+}
+.my-list-group{
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+
+}
+.my-list-group-item {
+    color: white;
+    box-sizing: border-box;
+    padding: 2%;
+}
+.my-list-group2{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    justify-content: center;
+}
+
+.my-list-group3{
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 80%;
+    height: auto;
+    padding: 2% 2% 5% 5%;
+    margin: 2% 2% 10% 10%;
+}
+
+.itens-w {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.header {
+    background-color: rgb(236, 236, 236);
+}
+
+.profile-teaser{
+    padding: 2% 5%;
+    margin: 2% 0% 2% 0%;
+    align-items: center;
+
+}
+
+.photo-teaser{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0% 5% 0% 10%;
+    margin: 0% 0% 0% 0%;
+
+}
+
+.photo-header {
+    width: auto;
+    height: 70%;
+
+}
+
+.h1{
+    font-family: 'Libre Baskerville', serif;
+    margin: 5% 5% 0% 5%;
+    font-weight: bold;
+}
+
+.h3{
+    font-family: 'Libre Baskerville', serif;
+    margin: 0% 0% 0% 5%;
+    color:gray;
+}
+
+.h6{
+    font-family: 'Libre Baskerville', serif;
+    margin: 2% 0% 0% 5%;
+    color:gray;
+}
+
+.about-me{
+    padding: 2% 0% 0% 0%;
+    margin: 2% 0% 0% 0%;
+
+}
+
+.skills{
+    padding: 2% 2% 0% 5%;
+    margin: 2% 2% 10% 2%;
+    
+}
+
+.icon-skills{
+    color: rgb(0, 0, 0);
+    font-size: 4em;
+    
+}
+
+.item-inner{
+    text-align: center;
+    padding:5% 0% 2% 0%;
+}
+
+.vertical-align {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); /* Adicionar os prefixos dos navegadores */
+}
+
+#linha-horizontal {
+    width: 90%;
+    border: 1px solid #000;
+}
+
+.itens-resume {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 3em;
+}
+
+.itens-trabalhos {
+    font-family: 'Libre Baskerville', serif;
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    text-decoration: none;
+    text-align: center;
+    font-size: 2em;
+    border:solid 3px;
+    border-radius:20px;
+}
+
+.header-resume {
+    background-color: rgb(236, 236, 236);
+    width: 100%;
+    height: 100%;
+}
+
+.titulo-trabalho{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 3em;
+    padding: 2% 2% 0% 5%;
+    margin: 2% 2% 0% 10%;
+}
+
+@media only screen and (min-width: 750px) {
+    .presentation-text {
+        display: inline;
+    }
+    .img-fluid {
+        width: auto;
+        height: auto;
+    }
+}
